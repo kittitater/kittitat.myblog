@@ -1,28 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
 
-@media only screen and (max-width: 600px) {
-    .main-con {
-        background-color: rgb(130, 224, 255); 
-        margin: 30px; 
-        padding:20px 10px; 
-        border-radius:30px;
-    }
+/* Phone screen size */
+@media only screen and (max-width: 500px) {
+.main-con {
+    background-color: rgb(130, 224, 255); 
+    margin: 20px; 
+    padding:20px 10px; 
+    border-radius:30px;
+}
     
-    h1 {
-        text-align: center;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 22px;
-    }
+h2 , h4  {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: px;
 }
 
+.profile-img {
+    border-radius: 100%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;   
+    margin-bottom: 30px;  
+}
+
+
+
+}
+
+/* Desktop screen size */
+@media only screen and (min-width: 500px) {
 .main-con {
     background-color: rgb(130, 224, 255); 
     margin: 30px; 
     padding:20px 10px; 
-    border-radius:30px;
+    border-radius:50px;
+    flex-direction: center;
 }
 
 h1 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 }
