@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
+
+/* Phone screen size */
+@media only screen and (max-width: 500px) {
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/giang_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+    
+.main-con {
+    background-color: rgb(130, 224, 255); 
+    margin: 20px; 
+    padding:20px 20px; 
+    border-radius:30px;
+    opacity:0.8;
+}
+    
+h2 , h4 ,h3 , .des {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: px;
+    font-weight: bold;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;   
+    margin-bottom: 30px;  
+}
+
+.title {
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+li {
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+}
+}
+
+/* Desktop screen size */
+@media only screen and (min-width: 500px) {
+.main-con {
+    background-color: rgb(130, 224, 255); 
+    margin: 30px; 
+    padding:20px 10px; 
+    border-radius:50px;
+    flex-direction: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+}
+
+h4 ,h3   {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 80px;   
+    margin-bottom: 80px;
+}
+
+}
