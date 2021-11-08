@@ -2,17 +2,29 @@
 
 /* Phone screen size */
 @media only screen and (max-width: 500px) {
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/giang_bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+    
 .main-con {
     background-color: rgb(130, 224, 255); 
     margin: 20px; 
-    padding:20px 10px; 
+    padding:20px 20px; 
     border-radius:30px;
+    opacity:0.8;
 }
     
-h2 , h4  {
+h2 , h4 ,h3 , .des {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: px;
+    font-weight: bold;
 }
 
 .profile-img {
@@ -25,8 +37,17 @@ h2 , h4  {
     margin-bottom: 30px;  
 }
 
+.title {
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: large;
+}
 
-
+li {
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+}
 }
 
 /* Desktop screen size */
@@ -39,10 +60,22 @@ h2 , h4  {
     flex-direction: center;
 }
 
-h1 {
+h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 40px;
+}
+
+h4 ,h3   {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
 }
 
 .profile-img {
@@ -51,6 +84,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 80px;   
+    margin-bottom: 80px;
 }
 
 }
