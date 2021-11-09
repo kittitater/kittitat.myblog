@@ -11,14 +11,14 @@ body {
     background-attachment: fixed;
 }
     
-.main-con {
+.main-con , .cont-con {
     background-color: rgb(130, 224, 255); 
     margin: 20px; 
     padding:20px 20px; 
     border-radius:30px;
     opacity:0.85;
 }
-    
+   
 h2 , h4 ,h3 , .des {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
