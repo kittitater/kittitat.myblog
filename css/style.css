@@ -52,13 +52,23 @@ li {
 
 /* Desktop screen size */
 @media only screen and (min-width: 500px) {
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/giang_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;       
+}
+
 .main-con {
     background-color: rgb(130, 224, 255); 
     margin: 30px; 
     padding:20px 10px; 
     border-radius:50px;
     flex-direction: center;
+    opacity:0.85;
 }
+
 
 h2 {
     text-align: center;
@@ -86,6 +96,19 @@ p {
     margin-right: auto; 
     margin-top: 80px;   
     margin-bottom: 80px;
+    opacity: 1;
+}
+
+.title {
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+li {
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
 }
 
 }
