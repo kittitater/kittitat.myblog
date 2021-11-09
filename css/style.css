@@ -62,13 +62,12 @@ body {
 
 .main-con {
     background-color: rgb(130, 224, 255); 
-    margin: 30px; 
+    margin: 40px; 
     padding:20px 10px; 
     border-radius:50px;
     flex-direction: center;
     opacity:0.85;
 }
-
 
 h2 {
     text-align: center;
@@ -79,13 +78,13 @@ h2 {
 h4 ,h3   {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .profile-img {
@@ -99,16 +98,30 @@ p {
     opacity: 1;
 }
 
+.list {
+    margin-top: 10px ;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+  
+  
+}
+
 .title {
-    text-align: left;
+    
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: large;
+    text-align: left;
 }
 
-li {
+
+
+ul {
     font-family: 'Source Code Pro', monospace;
     font-size: medium;
+    
 }
 
 }
