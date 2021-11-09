@@ -6,10 +6,9 @@
 body {
     background-size: cover;
     background-position: center;
-    background-image: url("../img/giang_bg.png");
+    background-image: url("giang_bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
     
 .main-con {
@@ -55,7 +54,7 @@ li {
 body {
     background-size: cover;
     background-position: center;
-    background-image: url("../img/giang_bg.png");
+    background-image: url("giang_bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;       
 }
